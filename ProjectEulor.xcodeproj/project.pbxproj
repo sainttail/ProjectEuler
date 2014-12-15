@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		898F8FCA1A3C22D600083360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FC91A3C22D600083360 /* main.m */; };
+		898F8FCD1A3C22D600083360 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FCC1A3C22D600083360 /* AppDelegate.m */; };
+		898F8FD01A3C22D600083360 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FCF1A3C22D600083360 /* ViewController.m */; };
+		898F8FD31A3C22D600083360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898F8FD11A3C22D600083360 /* Main.storyboard */; };
+		898F8FD51A3C22D600083360 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898F8FD41A3C22D600083360 /* Images.xcassets */; };
+		898F8FD81A3C22D600083360 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 898F8FD61A3C22D600083360 /* LaunchScreen.xib */; };
+		898F8FE41A3C22D600083360 /* ProjectEulorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FE31A3C22D600083360 /* ProjectEulorTests.m */; };
+		898F8FEF1A3C230000083360 /* Problem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FEE1A3C230000083360 /* Problem1.m */; };
+		898F8FF21A3C235600083360 /* BaseProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FF11A3C235600083360 /* BaseProblem.m */; };
+		898F8FF61A3C2A6B00083360 /* Problem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FF51A3C2A6B00083360 /* Problem2.m */; };
+		898F8FF91A3C2F8100083360 /* Problem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FF81A3C2F8100083360 /* Problem3.m */; };
+		898F8FFC1A3C33CE00083360 /* Problem4.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FFB1A3C33CE00083360 /* Problem4.m */; };
+		898F8FFF1A3C35C100083360 /* Problem5.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FFE1A3C35C100083360 /* Problem5.m */; };
+		898F90021A3C370C00083360 /* Problem6.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F90011A3C370C00083360 /* Problem6.m */; };
+		898F90051A3C3A3100083360 /* Problem7.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F90041A3C3A3100083360 /* Problem7.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		898F8FDE1A3C22D600083360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898F8FBC1A3C22D600083360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898F8FC31A3C22D600083360;
+			remoteInfo = ProjectEulor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		898F8FC41A3C22D600083360 /* ProjectEulor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEulor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		898F8FC81A3C22D600083360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898F8FC91A3C22D600083360 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		898F8FCB1A3C22D600083360 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		898F8FCC1A3C22D600083360 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		898F8FCE1A3C22D600083360 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		898F8FCF1A3C22D600083360 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		898F8FD21A3C22D600083360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		898F8FD41A3C22D600083360 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		898F8FD71A3C22D600083360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		898F8FDD1A3C22D600083360 /* ProjectEulorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898F8FE21A3C22D600083360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898F8FE31A3C22D600083360 /* ProjectEulorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectEulorTests.m; sourceTree = "<group>"; };
+		898F8FED1A3C230000083360 /* Problem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem1.h; sourceTree = "<group>"; };
+		898F8FEE1A3C230000083360 /* Problem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem1.m; sourceTree = "<group>"; };
+		898F8FF01A3C235600083360 /* BaseProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseProblem.h; sourceTree = "<group>"; };
+		898F8FF11A3C235600083360 /* BaseProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseProblem.m; sourceTree = "<group>"; };
+		898F8FF41A3C2A6B00083360 /* Problem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem2.h; sourceTree = "<group>"; };
+		898F8FF51A3C2A6B00083360 /* Problem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem2.m; sourceTree = "<group>"; };
+		898F8FF71A3C2F8100083360 /* Problem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem3.h; sourceTree = "<group>"; };
+		898F8FF81A3C2F8100083360 /* Problem3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem3.m; sourceTree = "<group>"; };
+		898F8FFA1A3C33CE00083360 /* Problem4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem4.h; sourceTree = "<group>"; };
+		898F8FFB1A3C33CE00083360 /* Problem4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem4.m; sourceTree = "<group>"; };
+		898F8FFD1A3C35C100083360 /* Problem5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem5.h; sourceTree = "<group>"; };
+		898F8FFE1A3C35C100083360 /* Problem5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem5.m; sourceTree = "<group>"; };
+		898F90001A3C370C00083360 /* Problem6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem6.h; sourceTree = "<group>"; };
+		898F90011A3C370C00083360 /* Problem6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem6.m; sourceTree = "<group>"; };
+		898F90031A3C3A3100083360 /* Problem7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem7.h; sourceTree = "<group>"; };
+		898F90041A3C3A3100083360 /* Problem7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem7.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898F8FC11A3C22D600083360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898F8FDA1A3C22D600083360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		898F8FBB1A3C22D600083360 = {
+			isa = PBXGroup;
+			children = (
+				898F8FC61A3C22D600083360 /* ProjectEulor */,
+				898F8FE01A3C22D600083360 /* ProjectEulorTests */,
+				898F8FC51A3C22D600083360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898F8FC51A3C22D600083360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898F8FC41A3C22D600083360 /* ProjectEulor.app */,
+				898F8FDD1A3C22D600083360 /* ProjectEulorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898F8FC61A3C22D600083360 /* ProjectEulor */ = {
+			isa = PBXGroup;
+			children = (
+				898F8FF31A3C2A5C00083360 /* Problem */,
+				898F8FCB1A3C22D600083360 /* AppDelegate.h */,
+				898F8FCC1A3C22D600083360 /* AppDelegate.m */,
+				898F8FCE1A3C22D600083360 /* ViewController.h */,
+				898F8FCF1A3C22D600083360 /* ViewController.m */,
+				898F8FD11A3C22D600083360 /* Main.storyboard */,
+				898F8FD41A3C22D600083360 /* Images.xcassets */,
+				898F8FD61A3C22D600083360 /* LaunchScreen.xib */,
+				898F8FC71A3C22D600083360 /* Supporting Files */,
+			);
+			path = ProjectEulor;
+			sourceTree = "<group>";
+		};
+		898F8FC71A3C22D600083360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				898F8FC81A3C22D600083360 /* Info.plist */,
+				898F8FC91A3C22D600083360 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		898F8FE01A3C22D600083360 /* ProjectEulorTests */ = {
+			isa = PBXGroup;
+			children = (
+				898F8FE31A3C22D600083360 /* ProjectEulorTests.m */,
+				898F8FE11A3C22D600083360 /* Supporting Files */,
+			);
+			path = ProjectEulorTests;
+			sourceTree = "<group>";
+		};
+		898F8FE11A3C22D600083360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				898F8FE21A3C22D600083360 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		898F8FF31A3C2A5C00083360 /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				898F8FED1A3C230000083360 /* Problem1.h */,
+				898F8FEE1A3C230000083360 /* Problem1.m */,
+				898F8FF01A3C235600083360 /* BaseProblem.h */,
+				898F8FF11A3C235600083360 /* BaseProblem.m */,
+				898F8FF41A3C2A6B00083360 /* Problem2.h */,
+				898F8FF51A3C2A6B00083360 /* Problem2.m */,
+				898F8FF71A3C2F8100083360 /* Problem3.h */,
+				898F8FF81A3C2F8100083360 /* Problem3.m */,
+				898F8FFA1A3C33CE00083360 /* Problem4.h */,
+				898F8FFB1A3C33CE00083360 /* Problem4.m */,
+				898F8FFD1A3C35C100083360 /* Problem5.h */,
+				898F8FFE1A3C35C100083360 /* Problem5.m */,
+				898F90001A3C370C00083360 /* Problem6.h */,
+				898F90011A3C370C00083360 /* Problem6.m */,
+				898F90031A3C3A3100083360 /* Problem7.h */,
+				898F90041A3C3A3100083360 /* Problem7.m */,
+			);
+			name = Problem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898F8FC31A3C22D600083360 /* ProjectEulor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898F8FE71A3C22D600083360 /* Build configuration list for PBXNativeTarget "ProjectEulor" */;
+			buildPhases = (
+				898F8FC01A3C22D600083360 /* Sources */,
+				898F8FC11A3C22D600083360 /* Frameworks */,
+				898F8FC21A3C22D600083360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEulor;
+			productName = ProjectEulor;
+			productReference = 898F8FC41A3C22D600083360 /* ProjectEulor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		898F8FDC1A3C22D600083360 /* ProjectEulorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898F8FEA1A3C22D600083360 /* Build configuration list for PBXNativeTarget "ProjectEulorTests" */;
+			buildPhases = (
+				898F8FD91A3C22D600083360 /* Sources */,
+				898F8FDA1A3C22D600083360 /* Frameworks */,
+				898F8FDB1A3C22D600083360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898F8FDF1A3C22D600083360 /* PBXTargetDependency */,
+			);
+			name = ProjectEulorTests;
+			productName = ProjectEulorTests;
+			productReference = 898F8FDD1A3C22D600083360 /* ProjectEulorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		898F8FBC1A3C22D600083360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Codium;
+				TargetAttributes = {
+					898F8FC31A3C22D600083360 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					898F8FDC1A3C22D600083360 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 898F8FC31A3C22D600083360;
+					};
+				};
+			};
+			buildConfigurationList = 898F8FBF1A3C22D600083360 /* Build configuration list for PBXProject "ProjectEulor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 898F8FBB1A3C22D600083360;
+			productRefGroup = 898F8FC51A3C22D600083360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898F8FC31A3C22D600083360 /* ProjectEulor */,
+				898F8FDC1A3C22D600083360 /* ProjectEulorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898F8FC21A3C22D600083360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898F8FD31A3C22D600083360 /* Main.storyboard in Resources */,
+				898F8FD81A3C22D600083360 /* LaunchScreen.xib in Resources */,
+				898F8FD51A3C22D600083360 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898F8FDB1A3C22D600083360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898F8FC01A3C22D600083360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898F90021A3C370C00083360 /* Problem6.m in Sources */,
+				898F8FD01A3C22D600083360 /* ViewController.m in Sources */,
+				898F8FCD1A3C22D600083360 /* AppDelegate.m in Sources */,
+				898F8FFF1A3C35C100083360 /* Problem5.m in Sources */,
+				898F8FFC1A3C33CE00083360 /* Problem4.m in Sources */,
+				898F8FF91A3C2F8100083360 /* Problem3.m in Sources */,
+				898F8FF61A3C2A6B00083360 /* Problem2.m in Sources */,
+				898F8FCA1A3C22D600083360 /* main.m in Sources */,
+				898F8FF21A3C235600083360 /* BaseProblem.m in Sources */,
+				898F8FEF1A3C230000083360 /* Problem1.m in Sources */,
+				898F90051A3C3A3100083360 /* Problem7.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898F8FD91A3C22D600083360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898F8FE41A3C22D600083360 /* ProjectEulorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		898F8FDF1A3C22D600083360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898F8FC31A3C22D600083360 /* ProjectEulor */;
+			targetProxy = 898F8FDE1A3C22D600083360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		898F8FD11A3C22D600083360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898F8FD21A3C22D600083360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		898F8FD61A3C22D600083360 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898F8FD71A3C22D600083360 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		898F8FE51A3C22D600083360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		898F8FE61A3C22D600083360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		898F8FE81A3C22D600083360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectEulor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		898F8FE91A3C22D600083360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectEulor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		898F8FEB1A3C22D600083360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectEulorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectEulor.app/ProjectEulor";
+			};
+			name = Debug;
+		};
+		898F8FEC1A3C22D600083360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectEulorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectEulor.app/ProjectEulor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898F8FBF1A3C22D600083360 /* Build configuration list for PBXProject "ProjectEulor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898F8FE51A3C22D600083360 /* Debug */,
+				898F8FE61A3C22D600083360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898F8FE71A3C22D600083360 /* Build configuration list for PBXNativeTarget "ProjectEulor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898F8FE81A3C22D600083360 /* Debug */,
+				898F8FE91A3C22D600083360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898F8FEA1A3C22D600083360 /* Build configuration list for PBXNativeTarget "ProjectEulorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898F8FEB1A3C22D600083360 /* Debug */,
+				898F8FEC1A3C22D600083360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 898F8FBC1A3C22D600083360 /* Project object */;
+}
