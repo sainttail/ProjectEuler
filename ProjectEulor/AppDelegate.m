@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "Problem7.h"
+#import "Problem10.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    Problem7 *prob = [[Problem7 alloc] init];
+    Problem10 *prob = [[Problem10 alloc] init];
     NSLog(@"prob : %@", [prob answer]);
     
     return YES;

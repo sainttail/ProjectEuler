@@ -22,6 +22,9 @@
 		898F8FFF1A3C35C100083360 /* Problem5.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F8FFE1A3C35C100083360 /* Problem5.m */; };
 		898F90021A3C370C00083360 /* Problem6.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F90011A3C370C00083360 /* Problem6.m */; };
 		898F90051A3C3A3100083360 /* Problem7.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F90041A3C3A3100083360 /* Problem7.m */; };
+		89CD22161A3F140B009CF7C6 /* Problem8.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD22151A3F140B009CF7C6 /* Problem8.m */; };
+		89CD22191A3F20D5009CF7C6 /* Problem9.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD22181A3F20D5009CF7C6 /* Problem9.m */; };
+		89CD221C1A3F22D4009CF7C6 /* Problem10.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD221B1A3F22D4009CF7C6 /* Problem10.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,12 @@
 		898F90011A3C370C00083360 /* Problem6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem6.m; sourceTree = "<group>"; };
 		898F90031A3C3A3100083360 /* Problem7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem7.h; sourceTree = "<group>"; };
 		898F90041A3C3A3100083360 /* Problem7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem7.m; sourceTree = "<group>"; };
+		89CD22141A3F140B009CF7C6 /* Problem8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem8.h; sourceTree = "<group>"; };
+		89CD22151A3F140B009CF7C6 /* Problem8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem8.m; sourceTree = "<group>"; };
+		89CD22171A3F20D5009CF7C6 /* Problem9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem9.h; sourceTree = "<group>"; };
+		89CD22181A3F20D5009CF7C6 /* Problem9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem9.m; sourceTree = "<group>"; };
+		89CD221A1A3F22D4009CF7C6 /* Problem10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem10.h; sourceTree = "<group>"; };
+		89CD221B1A3F22D4009CF7C6 /* Problem10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem10.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +172,12 @@
 				898F90011A3C370C00083360 /* Problem6.m */,
 				898F90031A3C3A3100083360 /* Problem7.h */,
 				898F90041A3C3A3100083360 /* Problem7.m */,
+				89CD22141A3F140B009CF7C6 /* Problem8.h */,
+				89CD22151A3F140B009CF7C6 /* Problem8.m */,
+				89CD22171A3F20D5009CF7C6 /* Problem9.h */,
+				89CD22181A3F20D5009CF7C6 /* Problem9.m */,
+				89CD221A1A3F22D4009CF7C6 /* Problem10.h */,
+				89CD221B1A3F22D4009CF7C6 /* Problem10.m */,
 			);
 			name = Problem;
 			sourceTree = "<group>";
@@ -267,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CD221C1A3F22D4009CF7C6 /* Problem10.m in Sources */,
 				898F90021A3C370C00083360 /* Problem6.m in Sources */,
 				898F8FD01A3C22D600083360 /* ViewController.m in Sources */,
+				89CD22161A3F140B009CF7C6 /* Problem8.m in Sources */,
 				898F8FCD1A3C22D600083360 /* AppDelegate.m in Sources */,
 				898F8FFF1A3C35C100083360 /* Problem5.m in Sources */,
 				898F8FFC1A3C33CE00083360 /* Problem4.m in Sources */,
@@ -278,6 +295,7 @@
 				898F8FF21A3C235600083360 /* BaseProblem.m in Sources */,
 				898F8FEF1A3C230000083360 /* Problem1.m in Sources */,
 				898F90051A3C3A3100083360 /* Problem7.m in Sources */,
+				89CD22191A3F20D5009CF7C6 /* Problem9.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
